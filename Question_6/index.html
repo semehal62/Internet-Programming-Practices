@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Site Layout</title>
+<link rel="stylesheet" href="news.css">
+    
+</head>
+<body>
+
+    <div class="container">
+        <div class="sidebar">
+            <h2>Article Sidebar</h2>
+            <p>This column is floated to the **left** and takes up 30% of the width.</p>
+            <ul>
+                <li>Section 1</li>
+                <li>Section 2</li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <h2>Main Article Content</h2>
+            <p>This column is floated to the **right** and takes up 70% of the width.</p>
+            <p>The container uses a **clearfix** to prevent its height from collapsing around the floated elements.</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; News Site Footer. This element uses **clear: both**.
+    </footer>
+
+</body>
+</html>
